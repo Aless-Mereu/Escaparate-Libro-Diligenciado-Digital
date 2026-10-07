@@ -61,11 +61,12 @@ Firmas  Ana García (realiza) · Luis Pérez (verifica)
 ## Arquitectura
 
 ```mermaid
+%%{init: {"flowchart": {"htmlLabels": false, "padding": 24, "nodeSpacing": 50, "rankSpacing": 60}}}%%
 flowchart TD
     A["Puesto de planta<br/>(navegador)"] -->|HTTPS| P["Proxy inverso<br/>Caddy"]
-    P --> F["Interfaz<br/>Streamlit"]
-    F -->|"REST + sesión + firma con PIN"| B["API<br/>FastAPI · reglas de negocio"]
-    B -->|"SQL como app_user<br/>(sin UPDATE/DELETE en registros)"| D[("PostgreSQL<br/>permisos · triggers · auditoría")]
+    P --> F["Interfaz web<br/>Streamlit"]
+    F -->|"REST + sesión<br/>+ firma con PIN"| B["API FastAPI<br/>reglas de negocio"]
+    B -->|"SQL como app_user<br/>sin UPDATE ni DELETE<br/>en registros"| D[("PostgreSQL<br/>permisos, triggers<br/>y auditoría")]
     K["Servicio de copia<br/>pg_dump + SHA-256"] --> D
 ```
 
@@ -123,7 +124,7 @@ El código es privado porque se trata de un proyecto comercial. Si quieres ver e
 <!-- 👉 Cambia los enlaces y el email -->
 **Alessandro** · Backend Developer → Data Engineer
 
-[LinkedIn](https://www.linkedin.com/in/tu-usuario) · [Web](https://tu-web) · tu@email.com
+[LinkedIn](www.linkedin.com/in/alessandrogm) · [Web](https://aless-mereu.github.io/Landing-page-personal/) · alessandrog.mereu@gmail.com
 
 ---
 
