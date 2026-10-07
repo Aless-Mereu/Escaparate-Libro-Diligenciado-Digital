@@ -65,10 +65,10 @@ Firmas  Ana García (realiza) · Luis Pérez (verifica)
 flowchart TD
     %% Los textos de las flechas van en cajas propias (forma redondeada):
     %% las cajas tienen fondo opaco y la flecha no las atraviesa.
-    A["Puesto de planta<br/>(navegador)"] --- C1(["HTTPS"]) --> P["Proxy inverso<br/>Caddy"]
+    A["Puesto de planta<br/>(navegador)"] --- C1("HTTPS") --> P["Proxy inverso<br/>Caddy"]
     P --> F["Interfaz web<br/>Streamlit"]
-    F --- C2(["REST + sesión<br/>+ firma con PIN"]) --> B["API FastAPI<br/>reglas de negocio"]
-    B --- C3(["SQL como app_user<br/>sin UPDATE ni DELETE<br/>en registros"]) --> D[("PostgreSQL<br/>permisos, triggers<br/>y auditoría")]
+    F --- C2("REST + sesión<br/>+ firma con PIN") --> B["API FastAPI<br/>reglas de negocio"]
+    B --- C3("SQL como app_user<br/>sin UPDATE<br/>ni DELETE<br/>en registros") --> D[("PostgreSQL<br/>permisos, triggers<br/>y auditoría")]
     K["Servicio de copia<br/>pg_dump + SHA-256"] --> D
 ```
 
