@@ -124,8 +124,8 @@ El código es privado porque se trata de un proyecto comercial. Si quieres ver e
 <!-- 👉 Cambia los enlaces y el email -->
 **Alessandro** · Backend Developer → Data Engineer
 
-[LinkedIn](www.linkedin.com/in/alessandrogm) · [Web](https://aless-mereu.github.io/Landing-page-personal/) · alessandrog.mereu@gmail.com
+[LinkedIn](https://www.linkedin.com/in/alessandrogm) · [Web](https://aless-mereu.github.io/Landing-page-personal/) · [alessandrog.mereu@gmail.com](mailto:alessandrog.mereu@gmail.com?subject=Libro%20Diligenciado%20Digital)
 
 ---
 
-© 2026 Alessandro. Todos los derechos reservados. Este repositorio no concede ninguna licencia sobre el software descrito.
+© 2026 Alessandro García Mereu. Todos los derechos reservados. Este repositorio no concede ninguna licencia sobre el software descrito.
