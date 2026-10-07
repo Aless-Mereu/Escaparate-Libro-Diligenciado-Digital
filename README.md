@@ -61,7 +61,7 @@ Firmas  Ana García (realiza) · Luis Pérez (verifica)
 ## Arquitectura
 
 ```mermaid
-%%{init: {"flowchart": {"htmlLabels": false, "padding": 24, "nodeSpacing": 50, "rankSpacing": 40}}}%%
+%%{init: {"flowchart": {"htmlLabels": false, "padding": 30, "nodeSpacing": 50, "rankSpacing": 40}}}%%
 flowchart TD
     %% Los textos de las flechas van en cajas propias (forma redondeada):
     %% las cajas tienen fondo opaco y la flecha no las atraviesa.
