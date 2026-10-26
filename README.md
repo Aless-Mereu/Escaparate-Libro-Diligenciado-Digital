@@ -6,12 +6,9 @@ Sustituye al libro diligenciado en papel: cada entrada, salida, traslado y trans
 
 > **Proyecto comercial: el código fuente es privado.** Este repositorio describe el sistema, su arquitectura y las decisiones técnicas. Demo en vivo o revisión del código bajo petición ([contacto](#contacto)).
 
-<!-- 👉 VÍDEO: GitHub no incrusta vídeos de YouTube/Loom. Usa una captura como miniatura enlazada:
-     1. Guarda una captura del vídeo en docs/img/video-miniatura.png
-     2. Sustituye ENLACE_AL_VIDEO y descomenta la línea siguiente -->
-<!-- [![Vídeo: el sistema funcionando en 90 segundos](docs/img/video-miniatura.png)](ENLACE_AL_VIDEO) -->
+[![Vídeo: el sistema funcionando (3:43)](docs/img/video-miniatura.png)](docs/video/Libro_diligenciado.mp4)
 
-**▶ [Vídeo: el sistema funcionando en 90 segundos](ENLACE_AL_VIDEO)** <!-- 👉 cambia ENLACE_AL_VIDEO -->
+**▶ [Vídeo: el sistema funcionando (3:43)](docs/video/Libro_diligenciado.mp4)**
 
 ---
 
